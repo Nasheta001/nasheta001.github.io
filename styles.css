@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #000; /* Black letters */
 }
 
 .container {
@@ -14,7 +15,7 @@ body {
 
 /* Header styles */
 header {
-    background: #333;
+    background: #28a745; /* Green background */
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
@@ -63,7 +64,7 @@ header .logo {
 /* Showcase styles */
 #showcase {
     min-height: 400px;
-    background: url('casino-bg.jpg') no-repeat center center/cover;
+    background: url('images/casino-bg.jpg') no-repeat center center/cover;
     text-align: center;
     color: #fff;
     display: flex;
@@ -90,7 +91,7 @@ header .logo {
 
 .content h2 {
     text-align: center;
-    color: #333;
+    color: #000;
     margin-bottom: 20px;
 }
 
@@ -99,9 +100,8 @@ header .logo {
 }
 
 .content .sample h3, .content .article h3 {
-    color: #333;
+    color: #000;
     margin-bottom: 10px;
-    color: #000; /* Numbers black */
 }
 
 .content .sample p, .content .article p {
@@ -115,6 +115,21 @@ header .logo {
     margin-top: 10px;
 }
 
+/* White background for sample section */
+.white-background {
+    background: #fff;
+}
+
+/* Banner styles */
+#banners .banner {
+    margin-bottom: 20px;
+}
+
+#banners .banner img {
+    width: 100%;
+    height: auto;
+}
+
 /* Contact section styles */
 #contact p {
     text-align: center;
@@ -122,7 +137,7 @@ header .logo {
 }
 
 #contact a {
-    color: #333;
+    color: #000;
     text-decoration: none;
 }
 
@@ -137,7 +152,7 @@ header .logo {
 }
 
 .social-icons a {
-    color: #333;
+    color: #000;
     text-decoration: none;
     font-size: 24px;
     margin: 0 10px;
